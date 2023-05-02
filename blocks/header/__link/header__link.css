@@ -5,6 +5,13 @@
     line-height: 28px;
     text-decoration: none;
     color: #fff;
+    opacity: 1;
+    transition: opacity linear .2s;
+}
+
+.header__link:hover {
+    text-decoration: underline;
+    opacity: .8;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -12,12 +19,4 @@
         font-size: 18px;
         line-height: 20px;
     }
-}
-
-.header__link:hover {
-    text-decoration: underline;
-}
-
-.header__link.active {
-    text-decoration: underline;
 }

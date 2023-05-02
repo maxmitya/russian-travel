@@ -8,10 +8,3 @@
     color: #aaa;
     text-transform: uppercase;
 }
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .place__url-heading {
-        font-size: 12px;
-        line-height: 12px;
-    }
-}
