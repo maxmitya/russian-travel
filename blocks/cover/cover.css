@@ -6,7 +6,8 @@
     background-image: url(../../images/__background.jpg);
     background-size: cover;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cover::after {

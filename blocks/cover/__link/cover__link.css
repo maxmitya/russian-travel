@@ -1,6 +1,4 @@
 .cover__link {
-    margin: auto;
-    max-width: 560px;
     color: #fff;
     text-decoration: none;
     z-index: 3;
@@ -8,12 +6,11 @@
     transition: opacity linear .2s;
 }
 
-.cover__link:hover {
-    opacity: .8;
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-    .cover__link {
-        max-width: 288px;
-    }
+.cover__link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
